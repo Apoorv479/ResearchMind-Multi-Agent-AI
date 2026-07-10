@@ -13,25 +13,26 @@ The system performs web search, extracts detailed information from relevant sour
 - AI-based report evaluation and feedback
 - Interactive Streamlit interface
 - Modular and extensible architecture
-
 ## Architecture
 
-User Query
-      │
-      ▼
-Search Agent
-      │
-      ▼
-Reader Agent
-      │
-      ▼
-Writer Chain
-      │
-      ▼
-Critic Chain
-      │
-      ▼
-Final Research Report
+```text
+                User Query
+                     │
+                     ▼
+             Search Agent
+                     │
+                     ▼
+             Reader Agent
+                     │
+                     ▼
+             Writer Chain
+                     │
+                     ▼
+             Critic Chain
+                     │
+                     ▼
+      Final Research Report
+```
 
 ## Tech Stack
 
@@ -145,6 +146,4 @@ Output
 - API Integration
 - Modular Software Architecture
 
-## Author
 
-Apoorv Jha
