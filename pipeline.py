@@ -51,7 +51,7 @@ def run_research_pipeline(topic : str) -> dict:
         "research" : research_combined
     })
 
-    print("\n Final Report\n",state['report'])
+    print("\n Final Report version \n",state['report'])
 
     #critic report 
 
@@ -70,6 +70,6 @@ def run_research_pipeline(topic : str) -> dict:
 
 
 if __name__ == "__main__":
-    topic = input("\n Enter a research topic : ")
+    topic = input("\n Enter a topic of research : ")
     run_research_pipeline(topic)
 
